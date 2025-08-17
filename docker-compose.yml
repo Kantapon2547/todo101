@@ -4,7 +4,7 @@ services:
   mongo:
     image: mongo
     ports:
-      - "27017:27017"
+      - "27017:27017"git commit -m "Remove old workflow with leaked secret"
     volumes:
       - /Users/kundjanasith/Desktop/todo101:/data/db
 
