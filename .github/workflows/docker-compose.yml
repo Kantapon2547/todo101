@@ -26,10 +26,10 @@ jobs:
 
       - name: 🚀 Tag & Push Backend image
         run: |
-          docker tag todo101-todo-backend kantaponh/todo-backend:latest
-          docker push kantaponh/todo-backend:latest
+          docker tag todo101-todo-backend kundjanasith/todo-backend:latest
+          docker push kundjanasith/todo-backend:latest
 
       - name: 🚀 Tag & Push Frontend image
         run: |
-          docker tag todo101-todo-frontend kantaponh/todo-frontend:latest
-          docker push kantaponh/todo-frontend:latest
+          docker tag todo101-todo-frontend kundjanasith/todo-frontend:latest
+          docker push kundjanasith/todo-frontend:latest
